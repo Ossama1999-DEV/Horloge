@@ -1,0 +1,73 @@
+# do horloge.do 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module cpt_dcpt
+# 
+# Top level modules:
+# 	cpt_dcpt
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module cpt_dcpt_vlg_sample_tst
+# -- Compiling module cpt_dcpt_vlg_check_tst
+# -- Compiling module cpt_dcpt_vlg_vec_tst
+# 
+# Top level modules:
+# 	cpt_dcpt_vlg_vec_tst
+# vsim -L cyclonev_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate -c -voptargs=\"+acc\" -t 1ps -novopt work.cpt_dcpt_vlg_vec_tst 
+# Loading work.cpt_dcpt_vlg_vec_tst
+# Loading work.cpt_dcpt
+# Loading altera_ver.dffeas
+# Loading work.cpt_dcpt_vlg_sample_tst
+# Loading work.cpt_dcpt_vlg_check_tst
+# Loading altera_ver.PRIM_GDFF_LOW
+# ERROR! Vector Mismatch for output port h1[0] :: @time = 1000000.000 ps
+#      Expected value = 0000
+#      Real value = 0001
+# ERROR! Vector Mismatch for output port s1[1] :: @time = 1000000.000 ps
+#      Expected value = 0000
+#      Real value = 0110
+# ERROR! Vector Mismatch for output port s1[2] :: @time = 1000000.000 ps
+#      Expected value = 0000
+#      Real value = 0110
+# ERROR! Vector Mismatch for output port s2[0] :: @time = 1000000.000 ps
+#      Expected value = 0000
+#      Real value = 0001
+# ERROR! Vector Mismatch for output port s1[0] :: @time = 1010000.000 ps
+#      Expected value = 0000
+#      Real value = 0111
+# ERROR! Vector Mismatch for output port s1[3] :: @time = 1020000.000 ps
+#      Expected value = 0000
+#      Real value = 1000
+# ERROR! Vector Mismatch for output port s2[1] :: @time = 1040000.000 ps
+#      Expected value = 0000
+#      Real value = 0010
+# ERROR! Vector Mismatch for output port s2[2] :: @time = 1240000.000 ps
+#      Expected value = 0000
+#      Real value = 0100
+# ERROR! Vector Mismatch for output port m1[0] :: @time = 1440000.000 ps
+#      Expected value = 0000
+#      Real value = 0001
+# ERROR! Vector Mismatch for output port m1[1] :: @time = 2040000.000 ps
+#      Expected value = 0000
+#      Real value = 0010
+# ERROR! Vector Mismatch for output port m1[2] :: @time = 3240000.000 ps
+#      Expected value = 0000
+#      Real value = 0100
+# ERROR! Vector Mismatch for output port m1[3] :: @time = 5640000.000 ps
+#      Expected value = 0000
+#      Real value = 1000
+# ERROR! Vector Mismatch for output port m2[0] :: @time = 6840000.000 ps
+#      Expected value = 0000
+#      Real value = 0001
+# ERROR! Vector Mismatch for output port m2[1] :: @time = 12840000.000 ps
+#      Expected value = 0000
+#      Real value = 0010
+# ERROR! Vector Mismatch for output port m2[2] :: @time = 24840000.000 ps
+#      Expected value = 0000
+#      Real value = 0100
+# ERROR! Vector Mismatch for output port h1[1] :: @time = 36840000.000 ps
+#      Expected value = 0000
+#      Real value = 0010
+#          16 mismatched vectors : Simulation failed !
+# ** Note: $finish    : Waveform_cpt_dcpt_1.vwf.vt(669)
+#    Time: 100 us  Iteration: 0  Instance: /cpt_dcpt_vlg_vec_tst/tb_out
